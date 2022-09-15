@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:overScrollMode="never"
+    android:padding="@dimen/_24sdp"
+    android:scrollbars="none"
+    android:background="@drawable/bg_b"
+    android:hapticFeedbackEnabled="false"
+    tools:context=".createActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="@dimen/_210sdp"
+            android:layout_height="@dimen/_210sdp"
+            android:layout_marginTop="@dimen/_100sdp"
+            android:paddingTop="@dimen/_48sdp"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:background="@drawable/card_form">
+
+            <EditText
+                android:id="@+id/txtNama"
+                android:layout_width="@dimen/_160sdp"
+                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                android:hint="@string/nama"
+                android:imeOptions="actionNext"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:paddingStart="@dimen/_6sdp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_13sdp" />
+
+            <EditText
+                android:id="@+id/txtSekolah"
+                android:layout_width="@dimen/_160sdp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:background="#00FFFFFF"
+                android:hint="@string/sekolah"
+                android:imeOptions="actionNext"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:paddingStart="@dimen/_6sdp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_13sdp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/btnSimpan"
+                    android:layout_width="100dp"
+                    android:layout_height="@dimen/_34sdp"
+                    android:layout_marginTop="@dimen/_34sdp"
+                    android:layout_marginEnd="@dimen/_7sdp"
+                    android:background="@drawable/button"
+                    android:text="@string/save_1"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_10sdp"
+                    android:textStyle="bold"
+                    tools:ignore="NotSibling" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

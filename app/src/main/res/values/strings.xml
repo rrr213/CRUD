@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CRUD Abi Raga Kawirian</string>
+    <string name="nama">Nama</string>
+    <string name="sekolah">Sekolah</string>
+    <string name="simpan">Simpan</string>
+    <string name="update">Update</string>
+    <string name="nama_lengkap">Nama Lengkap</string>
+    <string name="nama_sekolah">Nama Sekolah</string>
+    <string name="save">Save</string>
+    <string name="update_1">Update</string>
+    <string name="save_1">Save</string>
+</resources>
